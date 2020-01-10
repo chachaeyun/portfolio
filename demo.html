@@ -11,10 +11,54 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700|Raleway:500,700,800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="page1">
-        <p>배움과 도전을 추구하는<br>웹 퍼블리셔 <b>차채윤</b>입니다</p>
-        <div class="right_line"></div>
-    </div>
-    <div id="bottom"></div>
+    <body>
+        <div id="wrap">
+            <header>
+                <div class="header_wrap">
+                    <ul>
+                        <li><a href="#section1">HOME &nbsp;|</a></li>
+                        <li><a href="#section2">ABOUT &nbsp;|</a></li>
+                        <li><a href="#section3">PORTFOLIO &nbsp;|</a></li>
+                        <li><a href="#section4">CONTACT</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="container">
+                <div id="section1">
+                    <div class="section_wrap">
+                        <p>배움과 도전을 추구하는<br>웹퍼블리셔 <b>차채윤</b>입니다</p>
+                        <div class="right_line"></div>
+                    </div>
+                </div>
+                <div id="section2">
+                    <div class="section_wrap">
+                        <h2>Seeing is <strong>believing</strong></h2>
+                    </div>
+                </div>
+                <div id="section3"><h2>Asking costs <strong>nothing</strong></h2></div>
+                <div id="section4"><h2><strong>Better</strong> is to bow than break</h2></div>
+                <div id="section5"><h2><strong>Habit</strong> is second nature</h2></div>
+                <div id="section6"><h2>Pain past is <strong>pleasure</strong></h2></div>
+            </div>
+        </div>
+        
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script>
+            var nav = $("#nav ul li");
+            var cont = $("#contents > div");
+    
+            nav.click(function(e){
+                e.preventDefault();
+                var target = $(this);
+                var index = target.index();
+                //alert(index);
+                var section = cont.eq(index);
+                var offset = section.offset().top;
+                $("html,body").animate({ scrollTop:offset },600,"easeInOutExpo");
+            });
+        </script> -->
+    </body>
 </body>
 </html>
