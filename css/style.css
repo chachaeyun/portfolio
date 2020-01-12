@@ -36,13 +36,14 @@ header ul li{
 header ul li a{
     color: #fff;
     font-weight: bold;
+    font-size: 14px;
 }
 /* 섹션 전체관리 */
 .section_wrap{
     position: relative;
     margin: 0 auto;
 }
-#section1, #section2, #section3{
+#section1, #section2, #section3, #section4{
     width: 100%;
     height: 100%;
     background: #fff;
@@ -54,24 +55,24 @@ header ul li a{
 }
 #section1 .ko{
     padding-right: 180px;
-    padding-top: 90px;
+    padding-top: 70px;
     color: #fff;
-    font-size: 5rem;
+    font-size: 60px;
     text-align: right;
 }
 #section1 .right_line{
-    width: 8px; height: 1000px;
+    width: 8px; height: 850px;
     background: #fff;
     position: absolute;
     right: 140px;
-    top: 100px;
+    top: 80px;
 }
 #section1 .en{
     text-align: right;
     color: #fff;
     padding-right: 180px;
-    padding-top: 650px;
-    font-size: 2rem;
+    padding-top: 600px;
+    font-size: 28px;
     font-family: 'Raleway', sans-serif;
 }
 /* 섹션2 */
@@ -84,58 +85,45 @@ header ul li a{
 #section2 .me{
     border: 1px solid red;
     right: 300px;
-    top: 400px;
+    top: 270px;
 }
 #section2 h2{
     text-align: right;
     right: 750px;
-    top: 340px;
+    top: 200px;
     font-size: 50px;
 }
 #section2 p{
     text-align: right;
     right: 820px;
-    top: 550px;
+    top: 400px;
     font-size: 24px;
 }
 #section2 .iconbox{
     right: 820px;
-    top: 680px;
+    top: 550px;
 }
 #section2 .iconbox img{
     width: 100px; height: 100px;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
 
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
+/* 섹션3 */
 #section3 img{
-    width: 600px; height: 508px;
+    width: 567px; height: 480px;
 }
 #section3 img,
 #section3 .text_box{
     position: absolute;
+}
+#section3 .text_box{
+    text-align: right;
+    left: 400px;
+    top: 320px;
+}
+#section3 img{
+    top: 290px;
+    right: 300px;
 }
 #section3 .name em,
 #section3 .use em,
@@ -148,24 +136,15 @@ header ul li a{
     font-weight: 900;
     color: #021240;
 }
-#section3 .line{
-    width: 600px; height: 3px; background: #021240;
-}
-#section3 img{
-    top: 430px;
-    right: 500px;
-}
-#section3 .text_box{
-    text-align: right;
-    left: 750px;
-    top: 490px;
-}
 #section3 .use{
     font-size: 18px;
     padding: 15px 0;
 }
+#section3 .line{
+    width: 600px; height: 3px; background: #021240;
+}
 #section3 .info{
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px 0;
 }
 #section3 .page{
@@ -179,19 +158,47 @@ header ul li a{
     font-weight: bold;
 }
 #section3 .page:hover{
-    border: none;
     background: #021240;
     color: #fff;
+}
+/* 섹션4 */
+#section4{
+    text-align: center;
+}
+#section4 h1{
+    padding: 370px 0 50px 0;
+    font-size: 70px;
+    color: #021240;
+}
+#section4 .contact{
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#section4 .contact a{
+    color: #000;
+    text-decoration: underline;
+}
+#section4 .contact:hover strong{
+    background: #92a1d1;
 }
 
 
 
 
 
-
-
-.swiper-slide {
-
+/* 슬라이더 기본설정 */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
