@@ -1,0 +1,59 @@
+/* 섹션2 */
+#section2 .me{
+    right: 150px;
+    top: 350px;
+    width: 400px; height: 400px;
+}
+#section2 h2{
+    right: 500px;
+    top: 300px;
+    font-size: 46px;
+}
+#section2 p{
+    right: 570px;
+    top: 460px;
+    font-size: 20px;
+}
+#section2 .iconbox{
+    right: 570px;
+    top: 550px;
+}
+
+/* 섹션3 */
+
+#section3 .text_box{
+    right: 50%;
+    top: 300px;
+}
+#section3 img{
+    right: 10%;
+    width: 400px; height: 338px;
+}
+#section3 .name em{
+    font-size: 44px;
+}
+#section3 .use{
+    font-size: 18px;
+    padding: 15px 0;
+}
+#section3 .line{
+    width: 450px;
+}
+#section3 .info{
+    font-size: 18px;
+    padding: 15px 0;
+}
+#section3 .page{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    border: 2px solid #021240;
+    width: 150px; height: 40px;
+    color: #021240;
+    font-weight: bold;
+}
+#section3 .page:hover{
+    background: #021240;
+    color: #fff;
+}

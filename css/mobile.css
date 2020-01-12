@@ -1,0 +1,90 @@
+/* 섹션1 */
+#section1 .ko{
+    padding-right: 40px;
+    padding-top: 80px;
+    font-size: 36px;
+}
+#section1 .right_line{
+    width: 400px; height: 3px;
+    right: 40px;
+    top: 220px;
+}
+#section1 .en{
+    padding-right: 40px;
+    padding-top: 480px;
+    font-size: 18px;
+}
+/* 섹션2 */
+#section2 .me,
+#section2 h2,
+#section2 p,
+#section2 .iconbox{
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+}
+#section2 .me{
+    height: 400px;
+    top: 130px;
+}
+#section2 h2{
+    top: 550px;
+    font-size: 30px;
+}
+#section2 p{
+    display: inline-block;
+    text-align: right;
+    right: 820px;
+    top: 650px;
+    font-size: 19px;
+}
+#section2 .iconbox{
+    text-align: right;
+    top: 740px;
+}
+#section2 .iconbox img{
+    width: 70px; height: 70px;
+}
+
+/* 섹션3 */
+#section3 .text_box{
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+    top: 500px;
+}
+#section3 img{
+    top: 170px;
+    left: 50%;
+    margin-left: -175px;
+    width: 350px; height: 296px;
+}
+#section3 .name em{
+    font-size: 50px;
+}
+#section3 .line{
+    width: 350px; 
+}
+#section3 .info{
+    font-size: 16px;
+
+}
+#section3 .page{
+    margin-top: 20px;
+    line-height: 35px;
+    width: 130px; height: 35px;
+    font-size: 16px;
+}
+/* 섹션4 */
+#section4 h1{
+    padding: 250px 0 90px 0;
+    font-size: 60px;
+}
+#section4 .contact{
+    padding-left: 20px;
+}
+
+
+#bear_zone{
+    display: none;
+}
