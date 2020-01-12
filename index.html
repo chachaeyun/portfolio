@@ -8,15 +8,29 @@
     <title>Cha Chaeyun</title>
     <!-- 사용자 css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(min-width:1101px) and (max-width:1500px)"href="css/notebook.css">
+    <link rel="stylesheet" media="(min-width:501px) and (max-width:1100px)"href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width:0px) and (max-width:500px)"href="css/mobile.css">
+
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,700|Raleway:500,700,800&display=swap" rel="stylesheet">
     <!-- 슬라이더 -->
     <script src="js/swiper.js"></script>
     <link rel="stylesheet" href="css/swiper.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <!-- 곰돌이메뉴 -->
-    <a href="#"><img src="icon/bear_fff.png" alt=""></a>
+    <div id="bear_zone">
+      <a href="#" class="bear"><img id="bear1" src="icon/bear_fff.png" alt="toggelmenu"></a>
+      <ul class="bear_menu">
+        <li><a href="#section1">HOME</a></li>
+        <li><a href="#section2">ABOUT</a></li>
+        <li><a href="#section3">PORTFOLIO</a></li>
+        <li><a href="#section4">CONTACT</a></li>
+      </ul>
+    </div>
     <!-- 상단메뉴 -->
     <header>
         <ul>
@@ -37,16 +51,16 @@
     <!-- 섹션2 -->
     <div id="section2">
         <div class="section_wrap">
-            <img class="me" src="http://via.placeholder.com/500x500" alt="">
+            <img class="me" src="icon/me.jpg" alt="mypicture">
             <h2>안녕하세요 신입 웹퍼블리셔<br>차채윤입니다</h2>
-            <p>차채윤 | 97.6.21 | 서울 강서구<br>더조은 아카데미 스마트웹 UX/UI 퍼블리싱 전문가 양성 과정 수료</p>
+            <p>차채윤 | 97.06.21 | 서울시 강서구<br>더조은 아카데미 스마트웹 UX/UI 퍼블리싱 전문가 양성 과정 수료</p>
             <div class="iconbox">
-                <img src="icon/icon-01.png" alt="">
-                <img src="icon/icon-02.png" alt="">
-                <img src="icon/icon-03.png" alt=""><br>
-                <img src="icon/icon-04.png" alt="">
-                <img src="icon/icon-07.png" alt="">
-                <img src="icon/icon-08.png" alt="">
+                <img src="icon/icon-01.png" alt="html">
+                <img src="icon/icon-02.png" alt="css">
+                <img src="icon/icon-03.png" alt="jquery"><br>
+                <img src="icon/icon-04.png" alt="JavaScript">
+                <img src="icon/icon-07.png" alt="photoshop">
+                <img src="icon/icon-08.png" alt="illustrator">
             </div>
         </div>
     </div>
@@ -55,55 +69,63 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="port1">
-                <img src="icon/port1.jpg" alt="">
+                <img src="icon/port1.jpg" alt="portfolio1">
                 <div class="text_box">
                     <h1 class="name"><em>Desktop Web :<br>Mungket</em></h1>
                     <p class="use"><em>HTML CSS JavaScript jQuery</em></p>
                     <div class="line"></div>
-                    <p class="info">반려동물 용품샵<br>로고제작, 배너제작, 디자인, 퍼블리싱 100%</p>
-                    <a href="#" class="page">Demo page</a>
+                    <p class="info">반려동물 용품샵<br>로고제작, 배너제작, 디자인, 퍼블리싱</p>
+                    <a href="https://chachaeyun.github.io/port0/" target="blank" class="page">Demo page</a>
                 </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="port2">
-                <img src="icon/port1.jpg" alt="">
+                <img src="icon/port1.jpg" alt="portfolio2">
                 <div class="text_box">
-                    <h1 class="name"><em>Desktop Web :<br>sadksaml</em></h1>
+                    <h1 class="name"><em>Desktop Web :<br>Hoseo hospital</em></h1>
                     <p class="use"><em>HTML CSS JavaScript jQuery</em></p>
                     <div class="line"></div>
-                    <p class="info">반려동물 용품샵<br>로고제작, 배너제작, 디자인, 퍼블리싱 100%</p>
-                    <a href="#" class="page">Demo page</a>
+                    <p class="info">동물병원<br>시안제작, 디자인, 기획, 퍼블리싱</p>
+                    <a href="https://chachaeyun.github.io/port1/" target="blank" class="page">Demo page</a>
                 </div>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="port3">
-                <img src="icon/port1.jpg" alt="">
+                <img src="icon/port1.jpg" alt="portfolio3">
                 <div class="text_box">
-                    <h1 class="name"><em>Desktop Web :<br>333333333</em></h1>
+                    <h1 class="name"><em>Desktop Web :<br>Paikdabang</em></h1>
                     <p class="use"><em>HTML CSS JavaScript jQuery</em></p>
                     <div class="line"></div>
-                    <p class="info">반려동물 용품샵<br>로고제작, 배너제작, 디자인, 퍼블리싱 100%</p>
-                    <a href="#" class="page">Demo page</a>
+                    <p class="info">프랜차이즈 커피숍<br>시안제작, 배너제작, 디자인, 퍼블리싱</p>
+                    <a href="https://chachaeyun.github.io/port2/" target="blank" class="page">Demo page</a>
+                    <a href="https://chachaeyun.github.io/port2/page5-1.html" target="blank" class="page">Sub page</a>
                 </div>
             </div>
           </div>
         </div>
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
     <!-- 섹션4 -->
     <div id="section4">
-      <h1><em>I hope to meet you soon !</em></h1>
+      <h1 class="animated infinite"><em>I hope to meet you soon !</em></h1>
       <p class="contact"><strong>PHONE</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +82 5488 6550</p>
       <p class="contact"><strong>EMAIL</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: codbs54@gmail.com</p><br>
       <p class="contact"><strong>KAKAO id</strong>&nbsp;&nbsp;&nbsp;&nbsp;: codbs54</p>
-      <p class="contact"><strong>RESUME</strong>&nbsp;&nbsp;&nbsp;&nbsp;: <a href="#">내려받기</a></p>
+      <p class="contact"><strong>RESUME</strong>&nbsp;&nbsp;&nbsp;&nbsp;: <a href="https://drive.google.com/open?id=18JFbFSMeDKsyTCSoRWWqVp1H449sltKA">내려받기</a></p>
     </div>
+
+
+
+
+
+
+
+
+
 
 
       <!-- 슬라이더 스크립트 -->
@@ -121,6 +143,46 @@
             prevEl: '.swiper-button-prev',
           },
         });
+        // 앵커태그 부드럽게 스크롤
+        $('a').click(function(){
+          $('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
+          return false;
+        });
       </script>
+
+<script>
+
+  
+  window.onscroll = function(){
+    var sec2 = document.querySelector('#section2');
+    var menu = document.querySelector('header');
+    var sec2_top = sec2.offsetTop;
+    var b = window.pageYOffset;
+    var i = document.getElementById("bear1");
+
+    if(sec2_top <= b){
+      menu.classList.add('hi');
+      i.src="icon/bear_navy.png";
+      $(".bear_menu a")
+      .css({
+        "color": "#021240"
+      });
+
+    } else{
+      menu.classList.remove('hi');
+      i.src="icon/bear_fff.png";
+      $(".bear_menu a")
+      .css({
+        "color": "#fff"
+      });
+
+    }
+  }
+
+</script>
+
+
+
+
 </body>
 </html>
