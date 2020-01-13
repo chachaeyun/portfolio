@@ -149,6 +149,12 @@ header ul li a{
 #section3 .text_box{
     position: absolute;
 }
+#section3 img.pc{
+    right: 200px;
+}
+#section3 img.mobile{
+    right: 450px;
+}
 #section3 .text_box{
     text-align: right;
     right: 880px;

@@ -29,6 +29,12 @@
     right: 10%;
     width: 400px; height: 338px;
 }
+#section3 img.pc{
+    right: 10%;
+}
+#section3 img.mobile{
+    right: 25%;
+}
 #section3 .name em{
     font-size: 44px;
 }

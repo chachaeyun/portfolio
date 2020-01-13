@@ -66,6 +66,9 @@ header ul{
     margin-left: -175px;
     width: 350px; height: 296px;
 }
+#section3 img.mobile{
+    left: 23%;
+}
 #section3 .name em{
     font-size: 50px;
 }
