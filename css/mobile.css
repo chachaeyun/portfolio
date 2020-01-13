@@ -9,12 +9,12 @@ header ul{
 #section1 .ko{
     padding-right: 40px;
     padding-top: 80px;
-    font-size: 36px;
+    font-size: 30px;
 }
 #section1 .right_line{
-    width: 400px; height: 3px;
-    right: 40px;
-    top: 220px;
+    width: 350px; height: 3px;
+    right: 20px;
+    top: 190px;
 }
 #section1 .en{
     padding-right: 40px;
@@ -32,22 +32,22 @@ header ul{
 }
 #section2 .me{
     height: 400px;
-    top: 130px;
+    top: 100px;
 }
 #section2 h2{
-    top: 550px;
+    top: 520px;
     font-size: 30px;
 }
 #section2 p{
     display: inline-block;
     text-align: right;
     right: 820px;
-    top: 650px;
+    top: 620px;
     font-size: 19px;
 }
 #section2 .iconbox{
     text-align: right;
-    top: 740px;
+    top: 710px;
 }
 #section2 .iconbox img{
     width: 70px; height: 70px;
@@ -58,10 +58,10 @@ header ul{
     width: 350px;
     left: 50%;
     margin-left: -175px;
-    top: 500px;
+    top: 480px;
 }
 #section3 img{
-    top: 170px;
+    top: 150px;
     left: 50%;
     margin-left: -175px;
     width: 350px; height: 296px;
